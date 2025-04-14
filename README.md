@@ -1,1 +1,1 @@
-https://chersi.github.io/zakrivayuschiy-teg-f/
+https://github.com/Chersi/zakrivayuschiy-teg-f.git
