@@ -1,1 +1,55 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+--background-color-section: #fff;
+--background-color-button-accent: #000;
+--main-font: 'Inter-Variable', sans-serif;
+--accent-font: 'PressStart2P-Regular', fantasy;
+--main-text-weight: 400;
+--accent-text-weight: 700;
+--color-text: #000;
+--accent-color-text: #fff;
+--inline-size-section: clamp(371px, 100%, 700px);
+--font-size-title: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+--font-size-subtitle: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+--font-size-card: 18px;
+--font-size-button-text: 14px;
+--margin-block: 104px;
+--line-height-text: 21px;
+--line-height-footer-dialog: 150%;
+--line-height-footer-button: 90%;
+--padding-block-footer-button: 12.5px;
+--color-outline: #fff;
+--floppy-size: 28px;
+--floppy-dialog-size: 39px;
+--gradient-to-right: repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px);
+--gradient-to-bottom: repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px);
+--gradient-to-saturation: linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+--color-heart: #FF0000;
+--color-heart-accent: #000;
+--color-heart-contour: #000;
+--color-heart-contour-accent: #FF0000;
+--inline-size-like-button: 130px;
+--block-size-heart-button: 38px;
+--margin-block-end-card: 50px;
+--padding-block-footer: 15px;
+--margin-block-start-footer-close-button: 30px;
+--padding-block-end-title: 20px;
+--padding-block-end-card-content: 27px;
+--padding-inline-start-card-text-block: 25px;
+--padding-inline-end-card-text-block: 29px;
+--padding-block-start-card-text: 25px;
+--padding-card-icon-block: 25px;
+--padding-block-card-title: 5px;
+--padding-inline-card-title: 10px;
+--inset-card-image-block-label: 25px;
+--background-color-footer-dialog-back: rgba(0, 0, 0, 0.7);
+--size-card-image-block-picture: clamp(375px, 100%, 696px);
+--margin-section: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
+}
+
+@media (width >= 768px) {
+  :root {
+  --floppy-size: 21px;
+  }
+}
