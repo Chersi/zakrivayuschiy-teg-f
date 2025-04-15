@@ -4,7 +4,7 @@
 --background-color-section: #fff;
 --background-color-button-accent: #000;
 --main-font: 'Inter-Variable', sans-serif;
---accent-font: 'PressStart2P-Regular', fantasy;
+--accent-font: 'PressStart2P', fantasy;
 --main-text-weight: 400;
 --accent-text-weight: 700;
 --color-text: #000;
@@ -14,11 +14,11 @@
 --font-size-subtitle: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 --font-size-card: 18px;
 --font-size-button-text: 14px;
---margin-block: 104px;
+--margin-block: 100px;
 --line-height-text: 21px;
---line-height-footer-dialog: 150%;
---line-height-footer-button: 90%;
---padding-block-footer-button: 12.5px;
+--line-height-save-dialog: 150%;
+--line-height-save-button: 90%;
+--padding-block-save-button: 12.5px;
 --color-outline: #fff;
 --floppy-size: 28px;
 --floppy-dialog-size: 39px;
@@ -32,8 +32,8 @@
 --inline-size-like-button: 130px;
 --block-size-heart-button: 38px;
 --margin-block-end-card: 50px;
---padding-block-footer: 15px;
---margin-block-start-footer-close-button: 30px;
+--padding-block-save: 15px;
+--margin-block-start-save-close-button: 30px;
 --padding-block-end-title: 20px;
 --padding-block-end-card-content: 27px;
 --padding-inline-start-card-text-block: 25px;
@@ -42,8 +42,9 @@
 --padding-card-icon-block: 25px;
 --padding-block-card-title: 5px;
 --padding-inline-card-title: 10px;
---inset-card-image-block-label: 25px;
---background-color-footer-dialog-back: rgba(0, 0, 0, 0.7);
+--inset-inline-card-image-block-label: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
+--inset-block-card-image-block-label: 25px;
+--background-color-save-dialog-back: rgba(0, 0, 0, 0.75);
 --size-card-image-block-picture: clamp(375px, 100%, 696px);
 --margin-section: clamp(0rem, -8.1426rem + 34.7418vw, 23.125rem);
 }
