@@ -246,6 +246,7 @@ padding-block-start: var(--padding-block-start-card-text, 25px);
   padding: 0;
   background-color: inherit;
   block-size: var(--block-size-heart-button, 38px);
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -256,7 +257,6 @@ padding-block-start: var(--padding-block-start-card-text, 25px);
 .card__icon-button:focus-visible {
   border: #000 solid 2px;
   outline: none;
-  transition: border 0.3s ease;
 }
 
 .card__like-button {
@@ -338,6 +338,7 @@ padding-block-start: var(--padding-block-start-card-text, 25px);
   column-gap: 20px;
   border: #000 solid 2px;
   padding-inline: 38.5px;
+  padding-block: 30px;
   inline-size: clamp(341px, 80%, 353px);
 }
 
